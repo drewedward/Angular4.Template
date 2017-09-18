@@ -1,6 +1,6 @@
 :host{
     display: flex;
-    height: 2000px;  
+    min-height:738px;
 
     /* content-center */
     width: 100%;
