@@ -1,7 +1,9 @@
 <nav>
   <ul>
     <li *ngFor="let item of menuService.items" 
-        class="menu-item">
+        class="menu-item"
+        [routerLink]="item.route"
+        [routerLinkActive]="['active-route']">
         <i class="{{ item.icon }}"></i>
         <span>{{ item.text }}</span>
     </li>

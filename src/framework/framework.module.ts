@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { RouterModule } from "@angular/router";
 import { ResponsiveConfig, ResponsiveModule } from "ng2-responsive";
 
 import { FrameworkBodyComponent } from "./framework-body/framework-body.component";
@@ -28,6 +29,7 @@ export function ResponsiveDefinition() {
 @NgModule({
     imports: [
         CommonModule,
+        RouterModule,
         ResponsiveModule
     ],
     declarations: [
