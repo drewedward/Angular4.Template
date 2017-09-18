@@ -1,0 +1,25 @@
+:host{
+    display: flex;
+    flex-direction: column; 
+    border: 3px solid #FE5C57;
+}
+
+.header {
+    /* Position fixed forces this. 
+       Comment out to apply no fixed header */
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: auto;
+   width: 100%;
+ }
+
+.content {
+    display: flex;
+    flex: 1;
+  }
+
+  .footer{
+    display: flex;
+    flex: 1;
+  }

@@ -1,0 +1,28 @@
+ :host {
+    display: flex;
+
+    /* visualize */
+    background-color: #3E474F;
+    border: 3px solid black;
+  }
+
+  .header-content{    
+    /* header center */
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1em;
+    transition: left 0.2s ease-out;
+        
+    /* visualize */   
+    background-color: #ABBBBD;
+    border: 3px solid #5FCF80;
+
+  }
+  .logo {
+    padding: 40px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }

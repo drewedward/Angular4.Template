@@ -1,0 +1,15 @@
+:host{
+    display: flex;
+    min-height: 106px;
+    
+    /* footer-center */
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 1em;
+    transition: left 0.2s ease-out;
+
+    /* visualize */
+    background-color: #EDEFF0;
+    border: 3px solid darkgrey;
+}
