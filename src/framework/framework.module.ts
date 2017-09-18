@@ -8,6 +8,8 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { MenuComponent } from "./menus/menu/menu.component";
 
+import { MenuService } from "./services/menu.service";
+
 let config = {
     breakPoints: {
         xs: { max: 600 },
@@ -36,6 +38,7 @@ export function ResponsiveDefinition() {
         MenuComponent
     ],
     providers: [
+        MenuService,
         {
             provide: ResponsiveConfig,
             useFactory: ResponsiveDefinition
