@@ -3,22 +3,22 @@ import { MenuItem } from "primeng/primeng";
 // TODO: Add logic to generate initial Menu Items based on routes in a specified Routing Module
 export let initialMenuItems: Array<MenuItem> = [
     {
-        label: 'Resource',
+        label: 'Dropdown',
         items: [{
             label: 'New',
             icon: 'fa-plus',
             items: [
-                { label: 'Project', routerLink: '/dashboard' },
-                { label: 'Other',  routerLink: '/not-found' },
+                { label: 'Project' },
+                { label: 'Other' },
             ]
         },
-        { label: 'Resource #1', icon: 'fa-search', routerLink: '/resource-one' },
-        { label: 'Quit' }
+        { label: 'Not Found', icon: 'fa-ban', routerLink: '/not-found' },
+        { label: 'Invalid Route', routerLink: '/invalid' }
         ]
     },
     {
-        label: 'Edit',
-        icon: 'fa-edit',
-        routerLink: '/dashboard'
+        label: 'Resource #1',
+        icon: 'fa-cloud',
+        routerLink: '/resource-one'
     }
 ];
