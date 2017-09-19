@@ -19,9 +19,6 @@ export let initialMenuItems: Array<MenuItem> = [
     {
         label: 'Edit',
         icon: 'fa-edit',
-        items: [
-            { label: 'Undo', icon: 'fa-mail-forward', routerLink: '/dashboard'  },
-            { label: 'Redo', icon: 'fa-mail-reply', routerLink: '/not-found' }
-        ]
+        routerLink: '/dashboard'
     }
 ];

@@ -22,11 +22,10 @@ html, body {
     color: #ffffff;
 }
 
-/* .ui-panelmenu .ui-panelmenu-header.ui-state-active{
-  background-color: red !important;
-  color: #ffffff;
-} */
-
+.ui-state-active {
+    background-color: #ABBBBD !important;
+    color: #ffffff !important;
+}
 
 .ui-menu-child {
   border: 1px solid black !important;
