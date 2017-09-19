@@ -12,7 +12,7 @@ export let initialMenuItems: Array<MenuItem> = [
                 { label: 'Other',  routerLink: '/not-found' },
             ]
         },
-        { label: 'Search', icon: 'fa-search' },
+        { label: 'Resource #1', icon: 'fa-search', routerLink: '/resource-one' },
         { label: 'Quit' }
         ]
     },
