@@ -7,11 +7,11 @@
 }
 
 .main-content{
-    text-align: center;
     min-height: 250px;
     border: 3px solid red;
 }
 .main-content-title{
+    text-align: center;
     border: 3px solid black;
 }
 .main-content-item{
@@ -20,8 +20,11 @@
 }
 
 .sub-content{
-    text-align: center;
     border: 3px solid blue;
+}
+.sub-content-title{
+    text-align: center;
+    border: 3px solid black;
 }
 .sub-content-item{
     min-height: 150px;

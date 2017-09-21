@@ -4,6 +4,7 @@ import { MenuItem } from "primeng/primeng";
 export let initialMenuItems: Array<MenuItem> = [
     {
         label: 'Dropdown',
+        icon: 'fa-cloud',
         items: [{
             label: 'New',
             icon: 'fa-plus',
@@ -17,7 +18,7 @@ export let initialMenuItems: Array<MenuItem> = [
         ]
     },
     {
-        label: 'Resource #1',
+        label: 'Resource One',
         icon: 'fa-cloud',
         routerLink: '/resource-one'
     }

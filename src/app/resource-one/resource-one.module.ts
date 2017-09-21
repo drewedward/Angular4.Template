@@ -4,6 +4,7 @@ import { ResponsiveModule } from 'ng2-responsive';
 import { ResourceOneRoutingModule } from './resource-one-routing.module';
 import { ResourceOneComponent } from './resource-one.component';
 import { ResourceOneListComponent } from './components/resource-one-list/resource-one-list.component';
+import { ResourceOneDetailsComponent } from './components/resource-one-details/resource-one-details.component';
 
 @NgModule({
     imports: [
@@ -13,7 +14,8 @@ import { ResourceOneListComponent } from './components/resource-one-list/resourc
     ],
     declarations: [
         ResourceOneComponent,
-        ResourceOneListComponent
+        ResourceOneListComponent,
+        ResourceOneDetailsComponent
     ]
 })
 export class ResourceOneModule { }
