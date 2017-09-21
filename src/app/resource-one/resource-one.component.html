@@ -9,7 +9,7 @@
       </div>
       <div>
         <div class="create-button">
-          <button pButton class="ui-button-success" type="button" icon="fa-plus" label="Create Resource"></button>
+          <button pButton (click)="showDialog()" class="ui-button-success" type="button" icon="fa-plus" label="Create Resource"></button>
         </div>
       </div>
       <div>
@@ -42,3 +42,13 @@
     </div>
   </div>
 </div>
+<p-dialog [(visible)]="display" width="500" modal="true">
+    <p-header>
+        Create Resource
+    </p-header>
+    <!-- using content-style overflow can be used for components such as dropdown menus -->
+    Content
+    <p-footer>
+        //buttons
+    </p-footer>
+</p-dialog>

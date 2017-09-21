@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resource-one.component.css']
 })
 export class ResourceOneComponent implements OnInit {
-
+  display: boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
 
+  showDialog() {
+    this.display = true;
+  }
 }

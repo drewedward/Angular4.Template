@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ResponsiveModule } from 'ng2-responsive';
-import { ButtonModule } from 'primeng/primeng';
+import { ButtonModule, DialogModule } from 'primeng/primeng';
 import { ResourceOneRoutingModule } from './resource-one-routing.module';
 
 import { ResourceOneComponent } from './resource-one.component';
@@ -14,6 +14,7 @@ import { ResourceOneDetailsComponent } from './components/resource-one-details/r
         CommonModule,
         ResponsiveModule,
         ButtonModule,
+        DialogModule,
         ResourceOneRoutingModule
     ],
     declarations: [
