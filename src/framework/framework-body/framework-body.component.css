@@ -5,9 +5,10 @@
 }
 
 .header {
-    /* Position fixed forces this. 
+    /* Position fixed forces this. Z-Index forces it be placed above all other components 
        Comment out to apply no fixed header */
    position: fixed;
+   z-index:1000;
    top: 0;
    left: 0;
    margin: auto;
