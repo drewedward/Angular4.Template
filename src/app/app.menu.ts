@@ -3,9 +3,9 @@ import { MenuItem } from "../framework/services/menu.service";
 // TODO: Add logic to generate initial Menu Items based on routes in a specified Routing Module
 export let initialMenuItems: Array<MenuItem> = [
     {
-        text: 'Route #1',
+        text: 'Resource One',
         icon: 'fa fa-clock-o',
-        route: '/dashboard',
+        route: '/resource-one',
         submenu: null
     },
     {

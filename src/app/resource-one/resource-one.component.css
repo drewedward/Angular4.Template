@@ -1,0 +1,42 @@
+:host{
+    display: flex;   
+    flex-direction: column; 
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.create-button{
+    padding: 30px;
+    width: 250px;
+    margin: 0 auto;
+    outline-style: dashed;
+}
+
+.main-content{
+    min-height: 250px;
+    border: 3px solid red;
+}
+.main-content-title{
+    text-align: center;
+    border: 3px solid black;
+}
+.main-content-item{
+    text-align: center;
+    border: 3px solid lightcoral;
+}
+.main-content-item > div{
+    padding: 15px;
+}
+
+.sub-content{
+    border: 3px solid blue;
+}
+.sub-content-title{
+    text-align: center;
+    border: 3px solid black;
+}
+.sub-content-item{
+    min-height: 150px;
+    border: 3px solid lightblue;
+}

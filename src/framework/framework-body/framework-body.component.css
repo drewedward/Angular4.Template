@@ -1,13 +1,14 @@
 :host{
     display: flex;
     flex-direction: column; 
-    border: 3px solid #FE5C57;
+    border: 3px solid #FE5C57;  
 }
 
 .header {
     /* Position fixed forces this. 
        Comment out to apply no fixed header */
    position: fixed;
+   z-index: 1000;
    top: 0;
    left: 0;
    margin: auto;

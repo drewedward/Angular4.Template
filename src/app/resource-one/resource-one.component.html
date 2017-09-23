@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="main-content">
+        <div class="main-content-item">
+          <div class="main-content-title">
+            Main Content Title
+          </div>
+          <div>
+            Main Content
+          </div>
+          <div>
+            <div class="create-button">
+              <button type="button" class="btn btn-success" (click)="openModal(template)">
+                  <i class="fa fa-plus"></i> Create Resource
+              </button>
+            </div>
+          </div>
+          <div>
+            <a routerLink="/resource-one/list" routerLinkActive="active">View All</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="sub-content-item">
+        <div class="sub-content-title">
+          Sub Content Title
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a routerLink="/resource-one/1" routerLinkActive="active">Resource One #1</a>
+            </li>
+            <li>
+              <a routerLink="/resource-one/2" routerLinkActive="active">Resource One #2</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="sub-content-item">
+        <div class="sub-content-title">
+          Sub Content Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<template #template>
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Modal</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+  </div>
+  <div class="modal-body">
+    This is a modal.
+  </div>
+</template>

@@ -11,6 +11,7 @@ ul {
 }
 
 li {
+    outline: none;
     display: inline;
     padding: 25px;
 }

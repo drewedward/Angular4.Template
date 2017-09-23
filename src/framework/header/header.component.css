@@ -1,9 +1,15 @@
  :host {
     display: flex;
+    font-size: 14px;
 
     /* visualize */
     background-color: #3E474F;
     border: 3px solid black;
+  }
+
+  img{  
+    cursor: pointer;
+    outline: none;
   }
 
   .header-content{    

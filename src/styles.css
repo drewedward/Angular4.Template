@@ -5,3 +5,6 @@ html, body {
     height:100%;
     min-height:100%;
   }
+
+  /* Prevent modal from shifting fixed header and body*/
+  .modal-open {overflow: auto; padding-right: 0px !important}
