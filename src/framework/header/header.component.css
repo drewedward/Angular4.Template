@@ -62,3 +62,9 @@
     margin-right: 20px;
     line-height: 75px;
   }
+
+  .divider{
+    width: 2px;
+    margin: 10px 12px;
+    background: #373A3C;
+  }
