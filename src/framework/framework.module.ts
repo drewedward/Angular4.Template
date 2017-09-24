@@ -1,6 +1,5 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
-// import { RouterModule } from "@angular/router";
 import { ResponsiveConfig, ResponsiveModule } from "ng2-responsive";
 
 import { FrameworkBodyComponent } from "./framework-body/framework-body.component";
@@ -8,8 +7,6 @@ import { ContentComponent } from "./content/content.component";
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 import { MenuComponent } from "./menus/menu/menu.component";
-
-import { MenubarModule } from "primeng/primeng";
 
 import { MenuService } from "./services/menu.service";
 
@@ -31,9 +28,7 @@ export function ResponsiveDefinition() {
 @NgModule({
     imports: [
         CommonModule,
-        // RouterModule,
-        ResponsiveModule,
-        MenubarModule
+        ResponsiveModule
     ],
     declarations: [
         FrameworkBodyComponent,
