@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./framework-body.component.css']
 })
 export class FrameworkBodyComponent implements OnInit {
-
+  termsAgreement: string;
   constructor() { }
 
   ngOnInit() {

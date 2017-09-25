@@ -1,6 +1,5 @@
 :host{
-    display: flex;
-    min-height: 106px;
+    min-height: 150px;
     
     /* footer-center */
     width: 100%;
