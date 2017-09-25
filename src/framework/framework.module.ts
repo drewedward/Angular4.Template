@@ -8,7 +8,6 @@ import { FrameworkBodyComponent } from "./framework-body/framework-body.componen
 import { ContentComponent } from "./content/content.component";
 import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
-import { MenuComponent } from "./menus/menu/menu.component";
 
 import { MenuService } from "./services/menu.service";
 
@@ -38,8 +37,7 @@ export function ResponsiveDefinition() {
         FrameworkBodyComponent,
         ContentComponent,
         HeaderComponent,
-        FooterComponent,
-        MenuComponent
+        FooterComponent
     ],
     providers: [
         MenuService,
