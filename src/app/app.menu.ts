@@ -17,6 +17,12 @@ export let initialMenuItems: Array<MenuItem> = [
     {
         text: 'Route #3',
         icon: 'fa fa-cubes',
+        route: '/resource-one',
+        submenu: null
+    },
+    {
+        text: 'Route #4',
+        icon: 'fa fa-cubes',
         route: '/invalid-route',
         submenu: null
     }

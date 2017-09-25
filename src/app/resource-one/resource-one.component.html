@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="row">
+    <div class="card">
+      <div class="card-block">
+        <h2 >Your Resources</h2>
+        <p class="card-text">
+          View and edit your resources here
+        </p>
+      </div>
+      <clr-datagrid class="resource-list">
+          <clr-dg-column>Meet Name</clr-dg-column>
+          <clr-dg-column>Location</clr-dg-column>
+          <clr-dg-column>Date</clr-dg-column>
+      
+          <clr-dg-row class="clickable" routerLink="/resource-one/1">
+              <clr-dg-cell>Resource One #1</clr-dg-cell>
+              <clr-dg-cell>1050 Woodward Ave, Detroit MI</clr-dg-cell>
+              <clr-dg-cell>9/29/2017</clr-dg-cell>
+          </clr-dg-row>
+          <clr-dg-row class="clickable" routerLink="/resource-one/2">
+            <clr-dg-cell>Resource One #2</clr-dg-cell>
+            <clr-dg-cell>1050 Woodward Ave, Detroit MI</clr-dg-cell>
+            <clr-dg-cell>9/29/2017</clr-dg-cell>
+        </clr-dg-row>
+          <clr-dg-footer>2 meet(s)</clr-dg-footer>
+      </clr-datagrid>
+      <div class="card-footer">
+        <a routerLink="/resource-one/list" class="btn btn-sm btn-link" routerLinkActive="active">View All</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+      <div class="card">
+        <div class="card-header">
+          Create New Resource
+        </div>
+        <div class="card-block">
+          <div class="card-media-block">
+            <div class="card-media-description">
+              <span class="card-media-title">
+                              New resource
+                          </span>
+              <span class="card-media-text">
+                              Details about creating new resource
+                          </span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-primary">Create</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-block">
+            <div class="card-media-block">
+              <div class="card-media-description">
+                <span class="card-media-title">
+                                Project A
+                            </span>
+                <span class="card-media-text">
+                                Owner: John Doe
+                            </span>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-sm btn-link">Action</button>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,6 +1,4 @@
 :host{
-    min-height:800px;
-
     /* content-center */
     width: 100%;
     max-width: 1024px;
@@ -8,10 +6,7 @@
     padding: 0 1em;
     transition: left 0.2s ease-out;
 
-    /* w/o fixed header  */
-    /* position: relative; */
-
     /* visualize */
-    background-color: #EDEFF0;
-    border: 3px solid darkgrey;
+    /* background-color: #EDEFF0;
+    border: 3px solid darkgrey; */
 }
