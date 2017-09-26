@@ -9,6 +9,12 @@ html, body {
   }
 
   /* Clarity overwrites */
+  .main-container{
+    overflow: auto;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+  }
   .content-container{
     margin-top: 36px;
   }
