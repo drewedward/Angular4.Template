@@ -8,12 +8,12 @@ html, body {
 }
 .site-container{
   min-height: 100%;
-  margin-bottom: -150px;
+  margin-bottom: -200px;
   /* color matches main-container */
   background-color: #FAFAFA;
 }
 .site-container:after{
-  height: 150px;
+  height: 200px;
   content: " ";
   display: block;
 }

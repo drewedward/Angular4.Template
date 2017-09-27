@@ -1,12 +1,95 @@
 .footer{
     margin-top: 50px;
-    height: 150px;
-    background-color: #EDEFF0;
+    height: 200px;
+    font-size: x-small;
+    background-color: #3c3d41;
 }
 .footer-content{
+    background-color: #3c3d41;
     width: 100%;   
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 1em;
     transition: left 0.2s ease-out; 
+}
+@media screen and (max-width: 767px) {
+    .footer-content {
+        text-align: center;
+    }
+}
+
+.footer-copyright {
+    /* background-color: #333333; */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+.navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+.footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+h5 {
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+h2 a{
+    text-align: center;
+    color: #fff;
+}
+a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: white;
+}
+.social-networks {
+    font-size: small;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+.social-networks a {
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+.social-networks a:hover {
+    text-decoration: none;
+}
+.facebook:hover {
+    color: #0077e2;
+}
+.google:hover {
+    color: #ef1a1a;
+}
+.twitter:hover {
+    color: #00aced;
+}
+
+.btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
 }
