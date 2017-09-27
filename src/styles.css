@@ -1,8 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+}
 html, body {
-    /* font-family: 'Lato', sans-serif; */
-    height: 100%;
-  }
+  /* font-family: 'Lato', sans-serif; */
+  height: 100%;
+}
+.site-container{
+  min-height: 100%;
+  margin-bottom: -150px;
+  /* color matches main-container */
+  background-color: #FAFAFA;
+}
+.site-container:after{
+  height: 150px;
+  content: " ";
+  display: block;
+}
   .clickable{
     cursor: pointer;
     outline: none;
@@ -10,10 +24,13 @@ html, body {
 
   /* Clarity overwrites */
   .main-container{
-    overflow: auto;
+    height: auto;
+    
+    /* overflow: auto;
     z-index: 1;
-    width: 100%;
-    position: absolute;
+    width: 100%; */
+
+    /* background-color: white; */
   }
   .content-container{
     margin-top: 36px;
