@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule }   from '@angular/forms';
 import { ResponsiveModule } from 'ng2-responsive';
 import { ResourceOneRoutingModule } from './resource-one-routing.module';
 import { ClarityModule } from 'clarity-angular';
@@ -14,6 +15,7 @@ import { ResourceOneDetailsComponent } from './components/resource-one-details/r
         CommonModule,
         ResponsiveModule,
         ClarityModule,
+        FormsModule,
         ResourceOneRoutingModule
     ],
     declarations: [
