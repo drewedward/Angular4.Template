@@ -1,0 +1,9 @@
+.main-content-header{
+    font-size: x-large;
+}
+.sub-content-header{
+    font-size: medium;
+}
+section > label{
+    /* text-decoration: underline; */
+}

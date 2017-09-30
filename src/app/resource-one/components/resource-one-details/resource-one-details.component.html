@@ -1,5 +1,76 @@
-<p>
-  resource-one-details works!
-  
-  showing {{id}}
-</p>
+<div class="container">
+  <div class="row">
+    <h2>
+      Resource {{id}}
+    </h2>
+  </div>
+  <div class="row">
+    <div class="col-md-7 col-sm-12 col-xs-12">
+      <div class="card">
+        <div class="card-header main-content-header">
+          Resource Information
+        </div>
+        <div class="card-block">
+          <div class="card-text">
+            <form>
+              <section class="form-block">
+                <label>Name and Owner</label>
+                <div class="form-group">
+                  <label for="formFields_1">Name</label>
+                  <input type="text" id="formFields_1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="formFields_2">Owner</label>
+                  <input type="text" id="formFields_2" placeholder="Owner">
+                </div>
+              </section>
+              <section class="form-block">
+                <label>Date and Location</label>
+                <div class="form-group">
+                  <label for="formFields_3">Date and Time</label>
+                  <input type="datetime-local" id="formFields_3" size="35">
+                </div>
+                <div class="form-group">
+                  <label for="formFields_4">Location</label>
+                  <input type="text" id="formFields_4" placeholder="Location">
+                </div>
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="card">
+          <div class="card-header sub-content-header">
+            <i class="fa fa-line-chart" aria-hidden="true"></i> Associated Resource
+          </div>
+          <div class="card-block">
+            <div class="card-text">
+              You have (14) associated resources
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-sm btn-link text-uppercase">View All</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card">
+          <div class="card-header sub-content-header">
+            <i class="fa fa-line-chart" aria-hidden="true"></i> Manage Nested Resource
+          </div>
+          <div class="card-block">
+            <div class="card-text">
+              Manage your nested resources
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn btn-sm btn-link text-uppercase">Manage</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

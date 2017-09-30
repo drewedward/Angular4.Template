@@ -59,7 +59,22 @@
                     <clr-tab>
                         <button clrTabLink>Pending</button>
                         <clr-tab-content *clrIfActive>
-                            No Pending Resources
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="left">Name</th>
+                                        <th>Location</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            No Pending Resources
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </clr-tab-content>
                     </clr-tab>
                 </clr-tabs>
