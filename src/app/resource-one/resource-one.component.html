@@ -65,6 +65,8 @@
                 </clr-tabs>
             </div>
             <div class="card-footer">
+                <button class="btn btn-sm btn-primary" (click)="modalOpen = true">Modal</button>
+                <button class="btn btn-sm btn-secondary" (click)="wizardOpen = true">Wizard</button>
                 <a routerLink="/resource-one/list" class="btn btn-sm btn-link" routerLinkActive="active">View All</a>
             </div>
         </div>
@@ -73,12 +75,9 @@
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="card-header text-center">
-                    Resource Information #1
+                    <clr-icon shape="organization"></clr-icon> Manage Nested Resource
                 </div>
                 <div class="card-block">
-                    <div class="card-title text-center">
-                        Information Title
-                    </div>
                     <div class="card-text">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -86,30 +85,24 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <button class="btn btn-sm btn-primary" (click)="modalOpen = true">Modal</button>
-                    <button class="btn btn-sm btn-secondary" (click)="wizardOpen = true">Wizard</button>
+                    <button class="btn btn-sm btn-link text-uppercase">Go to Manager</button>
                 </div>
             </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="card-header text-center">
-                    Resource Information #2
+                    <i class="fa fa-line-chart" aria-hidden="true"></i> Resource Statistics
                 </div>
                 <div class="card-block">
-                    <div class="card-title text-center">
-                        Information Title
-                    </div>
                     <div class="card-text">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur.
+                        consequat.
                     </div>
                 </div>
                 <div class="card-footer">
-                    <button class="btn btn-sm btn-link text-uppercase">Launch</button>
-                    <button class="btn btn-sm btn-link text-uppercase">View History</button>
+                    <button class="btn btn-sm btn-link text-uppercase">View Statistics</button>
                 </div>
             </div>
         </div>
