@@ -17,24 +17,16 @@ html, body {
   content: " ";
   display: block;
 }
-  .clickable{
-    cursor: pointer;
-    outline: none;
-  }
-
   /* Clarity overwrites */
   .main-container{
     height: auto;
-    
-    /* overflow: auto;
-    z-index: 1;
-    width: 100%; */
-
-    /* background-color: white; */
   }
   .content-container{
     margin-top: 36px;
   }
   .header-hamburger-trigger{
-    outline:none !important;
+    outline: none !important;
  }
+.nav .nav-link.nav-item{
+  outline: none !important;
+}

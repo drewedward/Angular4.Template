@@ -1,4 +1,37 @@
+/* main content styling */
 .resource-list{
     width: 85%;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin: 0 auto;
 }
+
+tr{
+    cursor: pointer;
+    outline: none;
+}
+tr:hover{
+    background-color: #F5FAFA;
+}
+
+/* sub content styling */
+.card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-block {
+    border: none;
+    flex: 1 1 auto;
+  }
+  
+  .card-footer {
+    border-top: 1px solid #eee;
+  }
+  
+  .col-lg-5,
+  .col-md-8,
+  .col-sm-12,
+  .col-xs-12 {
+    display: flex;
+  }
