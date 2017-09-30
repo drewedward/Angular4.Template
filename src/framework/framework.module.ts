@@ -10,6 +10,7 @@ import { HeaderComponent } from "./header/header.component";
 import { FooterComponent } from "./footer/footer.component";
 
 import { MenuService } from "./services/menu.service";
+import { LoaderService } from "./services/loader.service";
 
 let config = {
     breakPoints: {
@@ -41,6 +42,7 @@ export function ResponsiveDefinition() {
     ],
     providers: [
         MenuService,
+        LoaderService,
         {
             provide: ResponsiveConfig,
             useFactory: ResponsiveDefinition

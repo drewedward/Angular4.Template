@@ -1,5 +1,8 @@
 <div class="content-container">
     <div class="content-area">
+        <div *ngIf="showLoader" class="overlay">
+            <span class="spinner spinner-lg spinner-inverse center">Loading...</span>
+        </div>
         <router-outlet></router-outlet>
     </div>
 </div>
