@@ -18,15 +18,14 @@ export class ResourceOneComponent implements OnInit {
   public modalModel: any; // will have an actual class/interface for this
   public model: any; // will have an actual class/interface for this
 
-  resourceOneList: ResourceOne[]
+  resourceOneList$: Observable<ResourceOne[]>
 
   constructor(private resourceOneService: ResourceOneService) {
   }
 
   ngOnInit() {
-    this.resourceOneService.getResourceOne()
-      .subscribe(resourceOneList => this.resourceOneList = resourceOneList,
-                 error => console.log(error));
+    this.resourceOneList$ = this.resourceOneService
+                                .getResourceOne().publishLast().refCount();
 
     this.modalModel = {
       forceReset: false,

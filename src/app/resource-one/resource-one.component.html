@@ -21,7 +21,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr *ngFor="let resourceOne of resourceOneList"
+                                    <tr *ngFor="let resourceOne of resourceOneList$ | async"
                                          routerLink="/resource-one/{{resourceOne.id}}">
                                         <td class="left">{{resourceOne.name}}</td>
                                         <td>{{resourceOne.location}}</td>
@@ -43,7 +43,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr *ngFor="let resourceOne of resourceOneList" 
+                                    <tr *ngFor="let resourceOne of resourceOneList$ | async" 
                                          routerLink="/resource-one/{{resourceOne.id}}">
                                         <td class="left">{{resourceOne.name}}</td>
                                         <td>{{resourceOne.location}}</td>
@@ -65,7 +65,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr *ngFor="let resourceOne of resourceOneList" 
+                                    <tr *ngFor="let resourceOne of resourceOneList$ | async" 
                                          routerLink="/resource-one/{{resourceOne.id}}">
                                         <td class="left">{{resourceOne.name}}</td>
                                         <td>{{resourceOne.location}}</td>
