@@ -8,6 +8,7 @@ import { ClarityModule } from 'clarity-angular';
 import { ResourceOneComponent } from './resource-one.component';
 import { ResourceOneListComponent } from './components/resource-one-list/resource-one-list.component';
 import { ResourceOneDetailsComponent } from './components/resource-one-details/resource-one-details.component';
+import { ResourceOneService } from './services/resource-one.services';
 
 
 @NgModule({
@@ -22,6 +23,9 @@ import { ResourceOneDetailsComponent } from './components/resource-one-details/r
         ResourceOneComponent,
         ResourceOneListComponent,
         ResourceOneDetailsComponent
+    ], 
+    providers: [
+        ResourceOneService
     ]
 })
 export class ResourceOneModule { }

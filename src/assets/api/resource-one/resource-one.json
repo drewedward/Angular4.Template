@@ -1,0 +1,29 @@
+[
+    { 
+      "id": 1, 
+      "name": "Ruby Classic", 
+      "location": "1050 Woodward Ave, Detroit MI", 
+      "date": "9/31/2017",
+      "status": "active" 
+    },
+    {
+      "id": 2, 
+      "name": "UPA Nationals", 
+      "location": "1051 Woodward Ave, Detroit MI", 
+      "date": "9/32/2017",
+      "status": "active" 
+    },
+    {
+      "id": 3, 
+      "name": "Raw Unity", 
+      "location": "1052 Woodward Ave, Detroit MI",
+      "date": "9/33/2017",
+      "status": "inactive" 
+    },
+    {
+      "id": 4, 
+      "name": "In House Meet", 
+      "location": "1053 Woodward Ave, Detroit MI", 
+      "date": "9/34/2017",
+      "status": "pending" }
+  ]  

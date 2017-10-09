@@ -21,15 +21,11 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr routerLink="/resource-one/1">
-                                        <td class="left">Resource One #1</td>
-                                        <td>1050 Woodward Ave, Detroit MI</td>
-                                        <td>9/30/2017</td>
-                                    </tr>
-                                    <tr routerLink="/resource-one/2">
-                                        <td class="left">Resource One #2</td>
-                                        <td>1050 Woodward Ave, Detroit MI</td>
-                                        <td>9/30/2017</td>
+                                    <tr *ngFor="let resourceOne of resourceOneList"
+                                         routerLink="/resource-one/{{resourceOne.id}}">
+                                        <td class="left">{{resourceOne.name}}</td>
+                                        <td>{{resourceOne.location}}</td>
+                                        <td>{{resourceOne.date}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -47,10 +43,11 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr routerLink="/resource-one/1">
-                                        <td class="left">Resource One #1</td>
-                                        <td>1050 Woodward Ave, Detroit MI</td>
-                                        <td>9/30/2017</td>
+                                    <tr *ngFor="let resourceOne of resourceOneList" 
+                                         routerLink="/resource-one/{{resourceOne.id}}">
+                                        <td class="left">{{resourceOne.name}}</td>
+                                        <td>{{resourceOne.location}}</td>
+                                        <td>{{resourceOne.date}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -68,10 +65,11 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td colspan="3">
-                                            No Pending Resources
-                                        </td>
+                                    <tr *ngFor="let resourceOne of resourceOneList" 
+                                         routerLink="/resource-one/{{resourceOne.id}}">
+                                        <td class="left">{{resourceOne.name}}</td>
+                                        <td>{{resourceOne.location}}</td>
+                                        <td>{{resourceOne.date}}</td>
                                     </tr>
                                 </tbody>
                             </table>
